@@ -5,9 +5,19 @@ const Footer = () => {
     <div
       style={{
         minHeight: "10vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
       }}
     >
-      Footer
+      <p
+        style={{
+          color: "rgb(226, 227, 231)",
+          margin: "0",
+        }}
+      >
+        @2023 copyright by Clipper
+      </p>
     </div>
   );
 };

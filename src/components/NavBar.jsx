@@ -8,12 +8,7 @@ const NavBar = () => {
     <>
       {/* Nav bar */}
 
-      <div
-        className="main-navbar container"
-        style={{
-          color: "rgb(226, 227, 231)",
-        }}
-      >
+      <div className="main-navbar container">
         <div
           style={{
             display: "flex",
@@ -64,7 +59,7 @@ const NavBar = () => {
               margin: "0 10px",
             }}
           >
-            <Button >Add Creadits</Button>
+            <Button>Add Creadits</Button>
           </div>
           <div
             style={{
@@ -74,13 +69,12 @@ const NavBar = () => {
             <div>
               <Image
                 src="/images/userImage.png"
-                width={30}
-                height={30}
+                width="30"
+                height="30"
                 alt="userImage"
                 style={{
                   borderRadius: "50%",
                 }}
-                s
               />
             </div>
           </div>
@@ -94,7 +88,17 @@ const NavBar = () => {
           color: "rgb(226, 227, 231)",
         }}
       >
-        <div>Logo</div>
+        <div>
+          <Image
+            src="/images/clipperLogo.png"
+            width="40"
+            height="40"
+            alt="userImage"
+            style={{
+              borderRadius: "50%",
+            }}
+          />
+        </div>
         <div
           style={{
             display: "flex",
@@ -133,7 +137,6 @@ const NavBar = () => {
                 style={{
                   borderRadius: "50%",
                 }}
-                s
               />
             </div>
           </div>

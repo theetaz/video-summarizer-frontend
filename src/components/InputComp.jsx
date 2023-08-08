@@ -35,7 +35,9 @@ const InputComp = () => {
             }
             placeholder="Drop a youtube video link"
           />
-          <Button size="large">Get Clip</Button>
+          <Button className="buttonCommon" size="large">
+            Get Clip
+          </Button>
         </Space.Compact>
       </Card>
     </>

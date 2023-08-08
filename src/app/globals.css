@@ -48,6 +48,7 @@ a {
 
   .inputCompContainer {
     width: 800px;
+    margin-top: 50px;
   }
 
   .inputCompCard {
@@ -76,4 +77,43 @@ a {
 
 .ant-input-affix-wrapper .ant-input-prefix {
   margin-inline-end: 10px !important;
+}
+
+/* buttons */
+
+.buttonCommon {
+  background-color: #1f2a2e !important;
+  border: none !important;
+  color: rgb(226, 227, 231) !important;
+}
+
+.ant-list-item-meta-title {
+  color: rgb(226, 227, 231) !important;
+}
+
+.ant-list-item-meta-description {
+  color: rgba(226, 227, 231, 0.697) !important;
+}
+
+/* scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(41, 62, 72, 0.45);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(128 143 147);
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

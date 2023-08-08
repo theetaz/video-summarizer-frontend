@@ -59,7 +59,7 @@ const NavBar = () => {
               margin: "0 10px",
             }}
           >
-            <Button>Add Creadits</Button>
+            <Button className="buttonCommon">Add Creadits</Button>
           </div>
           <div
             style={{

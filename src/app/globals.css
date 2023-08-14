@@ -54,6 +54,9 @@ a {
   .inputCompCard {
     padding: 24px 48px !important;
   }
+  .video-container {
+    width: 800px;
+  }
 }
 
 /* input  */
@@ -117,3 +120,7 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+/* video card */
+
+

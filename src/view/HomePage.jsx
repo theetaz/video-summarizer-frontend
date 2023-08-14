@@ -46,7 +46,7 @@ const HomePage = () => {
         flexDirection: "column",
       }}
     >
-      <div className="container-sm text-center">
+      <div className="container text-center">
         <h1
           style={{
             color: "rgb(226, 227, 231)",
@@ -90,7 +90,7 @@ const HomePage = () => {
                 borderRadius: "15px",
               }}
             >
-              <VideoPlayer />
+              <VideoPlayer url="/sampleVideo/sample.mp4" width="303px" height="540px" />
             </div>
           </Col>
           <Col

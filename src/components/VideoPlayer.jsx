@@ -6,14 +6,15 @@ const ReactPlayer = dynamic(() => import("react-player/lazy"), {
   ssr: false,
 });
 
-const VideoPlayer = () => {
+const VideoPlayer = ({ url, width, height , style }) => {
   return (
     <ReactPlayer
-      url="/sampleVideo/sample.mp4"
+      url={url}
       autoPlay={true}
       controls
-      width={"303px"}
-      height={"540px"}
+      width={width}
+      height={height}
+      style={style}
     />
   );
 };
